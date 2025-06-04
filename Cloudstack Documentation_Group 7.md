@@ -29,7 +29,7 @@ Before proceeding with the installation of CloudStack, it is crucial to ensure y
 
 ### 2. Software Requirements
 
-- This installation guide is done with  Ubuntu 24.04 (Noble Numbat). It is recommended to start with a fresh, minimal installation of this OS to avoid potential software conflicts.
+- This installation guide is done with  Ubuntu Server 24.04 (Noble Numbat). It is recommended to start with a fresh, minimal installation of this OS to avoid potential software conflicts.
 
 ### 3. Initial System Configuration
 
