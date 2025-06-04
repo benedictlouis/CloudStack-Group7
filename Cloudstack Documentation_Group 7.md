@@ -90,6 +90,17 @@ First, we'll configure the server's network to use a static IP address on a brid
 
 ### Edit the Netplan Configuration File
 
+To modify network settings, you need administrative privileges.
+
+```
+sudo -i
+cd /etc/netplan
+nano ./*.yaml
+```
+
+- **sudo -i:** This command elevates your user status to root, which is necessary for editing critical system configuration files.
+- **cd /etc/netplan:** This changes your current location to the /etc/netplan directory, where Ubuntu's network configuration files are stored.
+- **nano ./*.yaml:** This command opens the network configuration file in the nano text editor. The wildcard * is used because the exact filename can vary (e.g., 00-installer-config.yaml).
 
 ### Define the Bridge Interface
 
