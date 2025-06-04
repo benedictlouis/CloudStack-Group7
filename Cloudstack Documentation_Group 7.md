@@ -17,15 +17,15 @@ Before proceeding with the installation of CloudStack, it is crucial to ensure y
 
 ### 1. Hardware Requirements
 
-- CPU: The processor must support hardware virtualization.
+- **CPU:** The processor must support hardware virtualization.
     - For Intel CPUs, this is Intel VT-x.
     - For AMD CPUs, this is AMD-V.
     - Action: You must enable virtualization technology in your server's BIOS or UEFI settings. This setting is often found under "CPU Configuration" or "Advanced" tabs.
-- RAM: A minimum of 8 GB of RAM is recommended for a single-node test environment. This provides enough memory for the host operating system, the CloudStack Management Server, the KVM hypervisor, and a few small virtual machines. For better performance, 16 GB or more is highly recommended.
-- Storage:
+- **RAM:** A minimum of 8 GB of RAM is recommended for a single-node test environment. This provides enough memory for the host operating system, the CloudStack Management Server, the KVM hypervisor, and a few small virtual machines. For better performance, 16 GB or more is highly recommended.
+- **Storage:**
     - Disk Space: A minimum of 100 GB of storage is recommended to accommodate the operating system, CloudStack components, and storage for templates, ISOs, and virtual machine disks.
     - Disk Type: Using an SSD (Solid State Drive) is highly recommended for both primary and secondary storage, as it will dramatically improve the performance of VM provisioning and general I/O operations.
-- Network: A stable network connection with a static IP address available for the server. This setup will use one network interface card (NIC).
+- **Network:** A stable network connection with a static IP address available for the server. This setup will use one network interface card (NIC).
 
 ### 2. Software Requirements
 
