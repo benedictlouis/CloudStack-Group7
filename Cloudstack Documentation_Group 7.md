@@ -565,6 +565,7 @@ This is the final confirmation step.
 ![picture 41](https://i.imgur.com/Xf07Qjh.png)  
 ![picture 42](https://i.imgur.com/g5nfbzo.png)  
 ![picture 43](https://i.imgur.com/ofeWqBl.png)  
+![picture 44](https://i.imgur.com/ofM6DLv.png)  
 
 1. Navigate to the Instances section in the left-hand navigation menu.
 2. Click the Add Instance button. This will launch a multi-step wizard.
@@ -604,6 +605,8 @@ To allow your virtual machine to reach outside resources like websites or softwa
     - **Protocol:** Select All. This allows all types of traffic (TCP, UDP, ICMP, etc.) to leave your network.
     - Click Add.
 
+![picture 45](https://i.imgur.com/eCrq9ND.png) 
+
 ## Allowing SSH Access to Your VM (Firewall & Port Forwarding)
 
 To connect to your VM from your computer using an SSH client, you need to configure rules for incoming traffic. This is a two-step process involving the Firewall and Port Forwarding.
@@ -636,3 +639,5 @@ The firewall rule opens the door on your public IP, but it doesn't know which sp
 - **Public port:** Enter the public port you opened in the firewall step. To match our firewall example, this would be 2224.
 - **Protocol:** Select TCP.
 - Click Add.
+
+![picture 46](https://i.imgur.com/aCmr4K5.png)  
