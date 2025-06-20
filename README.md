@@ -62,7 +62,7 @@ As an Apache Software Foundation project, CloudStack benefits from a vibrant and
 
 - **Community Support:** A global community provides a wealth of knowledge, documentation, and support through forums, mailing lists, and community-driven events.
 
-# Installation Documentation
+# Installation Guide & Documentation
 
 # Apache CloudStack Single-Node Installation Guide
 
